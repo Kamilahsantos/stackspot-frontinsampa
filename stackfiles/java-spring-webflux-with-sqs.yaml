@@ -4,7 +4,6 @@ template: community-studio/java-spring-webflux-template
 plugins:
   - plugin: community-studio/java-spring-sqs-plugin
     inputs:
-      pacote_seguranca: "{{global_computed_inputs.pacote_base}}.seguranca"
       sqs_version: 2.16.18
       pacote_configuracao_sqs: "{{global_computed_inputs.pacote_base}}.configuration"
       aws_config_class_name: AwsConfiguration
