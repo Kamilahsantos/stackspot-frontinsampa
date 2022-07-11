@@ -16,12 +16,10 @@ inputs:
     name: nome_projeto    
   - label: Group id
     type: text
-    name: group_id
-    default: com.stackspot   
+    name: group_id   
   - label: Artifact id
     type: text
-    name: artifact_id
-    default: spring-webflux-demo    
+    name: artifact_id    
   - label: Versão
     type: text
     name: version
@@ -29,11 +27,9 @@ inputs:
   - label: Nome do projeto
     type: text
     name: nome_projeto
-    default: spring-webflux-demo
   - label: Descricao
     type: text
-    name: descricao_projeto
-    default: Demo project for Spring Boot Webflux        
+    name: descricao_projeto        
 
 computedInputs: 
   "pacote_base": "{{inputs.group_id | replace('-','')}}.{{inputs.artifact_id | replace('-','')}}"        
