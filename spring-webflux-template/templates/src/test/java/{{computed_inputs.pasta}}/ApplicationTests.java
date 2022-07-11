@@ -1,10 +1,10 @@
-package com.stackspot.frontinsampademo;
+package {{computed_inputs.pacote_base}};
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FrontinsampaDemoApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {

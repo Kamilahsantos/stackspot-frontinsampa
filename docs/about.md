@@ -1,0 +1,11 @@
+Desenvolva e publique APIs com nossa stack Java que utiliza projetos Spring. Nossa stack inclui suporte ao protocolo REST utilizando ecossistema Spring.
+
+A nossa Stack apresenta uma estrutura básica onde o template inicia todo o ciclo do desenvolvimento, definindo a linguagem, o framework e arquitetura, garantindo que a aplicação possa ser compilada e executada localmente.
+
+Ao usar a Stack API, é possível adicionar “superpoderes” ao seu template utilizando nossos plugins, como a capacidade de logs centralizados, publicação de métricas no Prometheus ou conexão com um banco de dados, por exemplo.
+
+Na prática, um plugin pode adicionar dependências ao seu projeto, criar alguns arquivos e se necessário, executar alguns comandos. Também damos a liberdade para que os times de desenvolvimento apliquem plugins de acordo com suas necessidades. É possível listar todos os plugins disponibilizados pelo Estúdio Mind através do nosso canal CLI.
+
+Com isso, formamos um conjunto de soluções, sendo eles: templates e plugins compondo a nossa Stack API, que ajuda os times de desenvolvimento a resolver um problema específico do negócio.
+
+A Stack API facilita o desenvolvimento, publicação e conexão de softwares da sua empresa no seu produto, ajudando os times de desenvolvimento a entregar software com mais velocidade e confiança. Isso traz o benefício do que realmente importa: foco em business features.
