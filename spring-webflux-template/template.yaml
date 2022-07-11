@@ -3,7 +3,41 @@ description: Template padrão par projetos Java + Spring Webflux
 types:
   - app-template
 inputs:
-  - label: Project name
+  - label: Versão do Java
     type: text
-    name: project_name
-    default: project-name
+    name: versao_java
+    default: 11
+  - label: Versão spring boot
+    type: text
+    name: versao_spring_boot
+    default: 2.7.1    
+  - label: Nome do projeto
+    type: text
+    name: nome_projeto    
+  - label: Group id
+    type: text
+    name: group_id
+    default: com.stackspot   
+  - label: Artifact id
+    type: text
+    name: artifact_id
+    default: spring-webflux-demo    
+  - label: Versão
+    type: text
+    name: version
+    default: 0.0.1-SNAPSHOT
+  - label: Nome do projeto
+    type: text
+    name: nome_projeto
+    default: spring-webflux-demo
+  - label: Descricao
+    type: text
+    name: descricao_projeto
+    default: Demo project for Spring Boot Webflux        
+
+computedInputs: 
+  "pacote_base": "{{inputs.group_id}}.{{inputs.artifact_id}}"        
+  "pasta": "{{computed_inputs.pacote_base | replace('.','/')}}"             
+
+global-computed-inputs:
+  "pacote_base": "{{inputs.group_id}}.{{inputs.artifact_id}}"
