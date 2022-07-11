@@ -36,8 +36,8 @@ inputs:
     default: Demo project for Spring Boot Webflux        
 
 computedInputs: 
-  "pacote_base": "{{inputs.group_id | replace('-','_')}}.{{inputs.artifact_id | replace('-','_')}}"        
+  "pacote_base": "{{inputs.group_id | replace('-','')}}.{{inputs.artifact_id | replace('-','')}}"        
   "pasta": "{{computed_inputs.pacote_base | replace('.','/')}}"             
 
 global-computed-inputs:
-  "pacote_base": "{{inputs.group_id | replace('-','_')}}.{{inputs.artifact_id | replace('-','_')}}"
+  "pacote_base": "{{inputs.group_id | replace('-','')}}.{{inputs.artifact_id | replace('-','')}}"
