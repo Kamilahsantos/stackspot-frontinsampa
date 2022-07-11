@@ -7,10 +7,12 @@ inputs:
     type: text
     name: versao_java
     default: 11
+    required: true
   - label: Versão Spring Boot
     type: text
     name: versao_spring_boot
-    default: 2.7.1    
+    default: 2.7.1
+    required: true
   - label: Group id
     type: text
     name: group_id
@@ -25,10 +27,12 @@ inputs:
     default: 0.0.1-SNAPSHOT
   - label: Nome do projeto
     type: text
-    name: nome_projeto    
+    name: nome_projeto
+    required: false       
   - label: Descricao do projeto
     type: text
-    name: descricao_projeto        
+    name: descricao_projeto
+    required: false 
 
 computedInputs: 
   "pacote_base": "{{inputs.group_id | replace('-','')}}.{{inputs.artifact_id | replace('-','')}}"        
