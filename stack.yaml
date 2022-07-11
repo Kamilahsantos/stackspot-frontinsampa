@@ -1,6 +1,6 @@
 description: Templates e plugins para projetos Java 
-name: stackspot-frontinsampa
-display-name: stackspot-frontinsampa
+name: community-spring-stack
+display-name: community-spring-stack
 picture: stack.png
 category: backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
 compatibility: # Put a list of technologies compatible with the stack
@@ -12,4 +12,4 @@ about: docs/about.md
 use-cases:
   - title: Use Case Title
     content: docs/use-case.md
-    stackfile: stackfiles/default.yaml
+    stackfile: stackfiles/java-spring-webflux.yaml

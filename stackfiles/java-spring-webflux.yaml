@@ -1,0 +1,3 @@
+type: app
+description: Template para desenvolver uma API completa usando Java + Spring Boot + Spring Webflux. # template used to create the project
+template: community-studio/java-spring-webflux-template
