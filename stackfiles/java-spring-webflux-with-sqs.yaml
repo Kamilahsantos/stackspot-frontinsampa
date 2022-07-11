@@ -1,8 +1,8 @@
 type: app
 description: Criando um projeto de uma API completa usando Java + Spring Boot + Spring Webflux + AWS SQS. # template used to create the project
-template: community-studio/java-spring-webflux-template
+template: community-spring-stack/java-spring-webflux-template
 plugins:
-  - plugin: community-studio/java-spring-sqs-plugin
+  - plugin: community-spring-stack/java-spring-sqs-plugin
     inputs:
       sqs_version: 2.16.18
       pacote_configuracao_sqs: "{{global_computed_inputs.pacote_base}}.configuration"
