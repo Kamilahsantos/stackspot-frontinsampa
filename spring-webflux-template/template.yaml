@@ -7,27 +7,26 @@ inputs:
     type: text
     name: versao_java
     default: 11
-  - label: Versão spring boot
+  - label: Versão Spring Boot
     type: text
     name: versao_spring_boot
     default: 2.7.1    
-  - label: Nome do projeto
-    type: text
-    name: nome_projeto    
   - label: Group id
     type: text
-    name: group_id   
+    name: group_id
+    required: true   
   - label: Artifact id
     type: text
-    name: artifact_id    
+    name: artifact_id
+    required: true    
   - label: Versão
     type: text
     name: version
     default: 0.0.1-SNAPSHOT
   - label: Nome do projeto
     type: text
-    name: nome_projeto
-  - label: Descricao
+    name: nome_projeto    
+  - label: Descricao do projeto
     type: text
     name: descricao_projeto        
 
