@@ -5,9 +5,9 @@ plugins:
   - plugin: community-spring-stack/java-spring-sqs-plugin
     inputs:
       sqs_version: 2.16.18
-      pacote_configuracao_sqs: "{{global_computed_inputs.pacote_base}}.configuration"
+      pacote_configuracao_sqs: "{{inputs.group_id | replace('-','')}}.{{inputs.artifact_id | replace('-','')}}.configuration"
       aws_config_class_name: AwsConfiguration
       sqs_config_class_name: SqsConfiguration
-      pacote_producer_sqs: "{{global_computed_inputs.pacote_base}}.sqs"
+      pacote_producer_sqs: "{{inputs.group_id | replace('-','')}}.{{inputs.artifact_id | replace('-','')}}.sqs"
       sqs_produtor_class_name: SqsPublisher
       
