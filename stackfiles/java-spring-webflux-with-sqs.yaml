@@ -4,10 +4,9 @@ template: community-spring-stack/java-spring-webflux-template
 plugins:
   - plugin: community-spring-stack/java-spring-sqs-plugin
     inputs:
+      pacote_configuracao_sqs: configuration
+      pacote_producer_sqs: sqs
       sqs_version: 2.16.18
-      pacote_configuracao_sqs: "{{global_computed_inputs.pacote_base}}.configuration"
-      aws_config_class_name: AwsConfiguration
       sqs_config_class_name: SqsConfiguration
-      pacote_producer_sqs: "{{global_computed_inputs.pacote_base}}.sqs"
       sqs_produtor_class_name: SqsPublisher
-      
+      aws_config_class_name: AwsConfiguration
