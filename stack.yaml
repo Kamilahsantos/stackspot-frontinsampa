@@ -1,15 +1,18 @@
 description: Templates e plugins para projetos Java 
 name: community-spring-stack
-display-name: community-spring-stack
+display-name: Stack Spring 
 picture: stack.png
-category: backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
+category: Backend # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#category
 compatibility: # Put a list of technologies compatible with the stack
-  - java
-  - spring
+  - Java
+  - Spring
 technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/#technologies 
-  - docker 
+  - Docker 
+  - AWS SQS
+  - Springboot
+  - Java
 about: docs/about.md
 use-cases:
-  - title: Use Case Title
+  - title: Webflux + AWS SQS 
     content: docs/use-case.md
     stackfile: stackfiles/java-spring-webflux.yaml
