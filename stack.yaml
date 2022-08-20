@@ -13,6 +13,9 @@ technologies: # Ref: https://docs.stackspot.com/latest/docs/creators-guide/yaml/
   - Java
 about: docs/about.md
 use-cases:
-  - title: Webflux + AWS SQS 
+  - title: Webflux Basic 
     content: docs/use-case.md
     stackfile: stackfiles/java-spring-webflux.yaml
+  - title: Webflux + AWS SQS 
+    content: docs/use-case.md
+    stackfile: stackfiles/java-spring-webflux-with-sqs.yaml
