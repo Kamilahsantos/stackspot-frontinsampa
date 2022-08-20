@@ -1,6 +1,6 @@
 [submodule "java-spring-webflux-template"]
 	path = java-spring-webflux-template
-	url = git@github.com:community-studio/java-spring-webflux-template.git
+	url = https://github.com/community-studio/java-spring-webflux-template.git
 [submodule "java-spring-sqs-plugin"]
 	path = java-spring-sqs-plugin
-	url = git@github.com:community-studio/java-spring-sqs-plugin.git
+	url = https://github.com/community-studio/java-spring-sqs-plugin.git
